@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'ADVOperation'
   s.version = '1.0.0'
-  s.license = 'UNLICENSE'
+  s.license = 'LICENSE'
   s.summary = 'Advanced Operations'
   s.homepage = 'https://github.com/gsempe/ADVOperation'
   s.social_media_url = 'http://twitter.com/gsempe'
