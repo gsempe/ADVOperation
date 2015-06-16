@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA8215681B2F23FA00A04622 /* ADVOperation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA82155D1B2F23FA00A04622 /* ADVOperation.framework */; };
-		AA8215841B2F260200A04622 /* ADVOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8215821B2F260200A04622 /* ADVOperationTests.swift */; };
 		AA8215851B2F260200A04622 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA8215831B2F260200A04622 /* Info.plist */; };
 		AA8215891B2F417E00A04622 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA8215881B2F417E00A04622 /* Info.plist */; };
 		AA8215AA1B2F422C00A04622 /* GroupOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82158C1B2F422C00A04622 /* GroupOperation.swift */; };
@@ -41,6 +40,7 @@
 		AA8215C51B2F422C00A04622 /* UIUserNotifications+Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8215A71B2F422C00A04622 /* UIUserNotifications+Operations.swift */; };
 		AA8215C61B2F422C00A04622 /* URLSessionTaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8215A81B2F422C00A04622 /* URLSessionTaskOperation.swift */; };
 		AA8215C71B2F422C00A04622 /* UserNotificationCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8215A91B2F422C00A04622 /* UserNotificationCondition.swift */; };
+		AA9A92321B301FE8003CF5D2 /* URLSessionTaskOperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9A92311B301FE8003CF5D2 /* URLSessionTaskOperationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,6 @@
 /* Begin PBXFileReference section */
 		AA82155D1B2F23FA00A04622 /* ADVOperation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADVOperation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA8215671B2F23FA00A04622 /* ADVOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADVOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA8215821B2F260200A04622 /* ADVOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVOperationTests.swift; sourceTree = "<group>"; };
 		AA8215831B2F260200A04622 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA8215871B2F417E00A04622 /* ADVOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADVOperation.h; sourceTree = "<group>"; };
 		AA8215881B2F417E00A04622 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +89,7 @@
 		AA8215A71B2F422C00A04622 /* UIUserNotifications+Operations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIUserNotifications+Operations.swift"; sourceTree = "<group>"; };
 		AA8215A81B2F422C00A04622 /* URLSessionTaskOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionTaskOperation.swift; sourceTree = "<group>"; };
 		AA8215A91B2F422C00A04622 /* UserNotificationCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationCondition.swift; sourceTree = "<group>"; };
+		AA9A92311B301FE8003CF5D2 /* URLSessionTaskOperationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionTaskOperationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 		AA8215811B2F260200A04622 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				AA8215821B2F260200A04622 /* ADVOperationTests.swift */,
+				AA9A92311B301FE8003CF5D2 /* URLSessionTaskOperationTests.swift */,
 				AA82158B1B2F41D100A04622 /* Supporting Files */,
 			);
 			path = Tests;
@@ -360,7 +360,6 @@
 				AA8215B61B2F422C00A04622 /* LocationOperation.swift in Sources */,
 				AA8215AC1B2F422C00A04622 /* OperationQueue.swift in Sources */,
 				AA8215BB1B2F422C00A04622 /* Operation.swift in Sources */,
-				AA8215841B2F260200A04622 /* ADVOperationTests.swift in Sources */,
 				AA8215B91B2F422C00A04622 /* NoCancelledDependencies.swift in Sources */,
 				AA8215C01B2F422C00A04622 /* PhotosCondition.swift in Sources */,
 				AA8215B51B2F422C00A04622 /* LocationCondition.swift in Sources */,
@@ -371,6 +370,7 @@
 				AA8215B01B2F422C00A04622 /* CloudCondition.swift in Sources */,
 				AA8215C41B2F422C00A04622 /* TimeoutObserver.swift in Sources */,
 				AA8215BF1B2F422C00A04622 /* PassbookCondition.swift in Sources */,
+				AA9A92321B301FE8003CF5D2 /* URLSessionTaskOperationTests.swift in Sources */,
 				AA8215B41B2F422C00A04622 /* HealthCondition.swift in Sources */,
 				AA8215AF1B2F422C00A04622 /* CKContainer+Operations.swift in Sources */,
 				AA8215AD1B2F422C00A04622 /* BlockObserver.swift in Sources */,
